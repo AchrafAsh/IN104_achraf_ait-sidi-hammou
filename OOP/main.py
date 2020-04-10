@@ -59,10 +59,10 @@ class Teacher(Person):
 
 
 if __name__ == "__main__":
-    # Achraf = Person('Achraf', 'ASH', 22, "bored")
-    # print(Achraf.introduce())
-    # Achraf.mood = "sick"
-    # print(Achraf)
+    Achraf = Person('Achraf', 'ASH', 22, "bored")
+    print(Achraf.introduce())
+    Achraf.mood = "sick"
+    print(Achraf)
 
     Achraf = Student("Achraf", "ASH", 22, "bored", "Graduate", "MIT")
 
